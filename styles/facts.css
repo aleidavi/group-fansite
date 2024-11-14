@@ -1,9 +1,29 @@
+.bold {
+    font-weight: bold;
+}
 
-html{
-
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: rebeccapurple;
+    font-weight: bold;
+    border: none;
+    padding: 0;
 }
 
 h1 {
     font-family: fantasy;
     color: green;
+}
+
+h2 {
+    font-family: fantasy;
+    color: green;
+}
+
+ul {
+    list-style-type: none;
+    padding: 5em;
 }
