@@ -5,7 +5,11 @@ html {
     color: #FEF5DC;
 }
 
-header {
+/* header {
+    background-color: #D8B494;
+} */
+
+header a:hover {
     background-color: #D8B494;
 }
 
@@ -14,6 +18,11 @@ nav a {
     background-color: #FEF6E5;
     color: #9F7F63;
     font-family: Georgia;
+}
+
+nav a:hover{
+    background-color: #9D6D49;
+    color: #FEF6E5;
 }
 
 .container {
