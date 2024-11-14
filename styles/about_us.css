@@ -1,9 +1,19 @@
 html {
     text-align: center;
+    background-color: #9D6D49;
+    font-family: Courier;
+    color: #FEF5DC;
+}
+
+header {
+    background-color: #D8B494;
 }
 
 nav a {
     margin: 0 10px;
+    background-color: #FEF6E5;
+    color: #9F7F63;
+    font-family: Georgia;
 }
 
 .container {
@@ -11,9 +21,14 @@ nav a {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    font-family: sans-serif;
+    background-color: #FFFBF3;
+    color: #1A1917;
+    margin: 15px;
 }
 
 .team-member img {
+    margin-top: 5px;
     max-width: 150px;
     max-height: 150px;
 }
