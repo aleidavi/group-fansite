@@ -1,4 +1,76 @@
 
-h1{ background-color: peru;
+html {
+    text-align: center;
+}
+section{
+    padding: 1em;
+    background-color: #9d7960;
+}
+
+header{
+    background-color: #ebbd9d;
+    padding-top: 2em;
 
 }
+
+li {
+    
+    display: inline-block;
+    padding: 1em;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #9d7960;
+
+    
+}
+
+ 
+
+a{
+    color: whitesmoke
+}
+
+h1 { 
+   
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 65px;
+    color: whitesmoke;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke;
+}
+
+/* .bold {
+    font-weight: bold;
+} */
+main {
+    color: whitesmoke;
+    font-family: Helvetica;
+    border: none;
+}
+
+{
+
+}
+
+footer {
+    position: static;
+    bottom: 0;
+    height: 25%;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: bold;
+    border: none;
+    padding: 3em;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #9d7960;;
+}
+
+/* h1 {
+    font-family: fantasy;
+    color: green;
+} */
+
+
+
