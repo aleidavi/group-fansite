@@ -1,43 +1,68 @@
+.container {
+  font-family: "Avenir";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #020202;
+  margin: 15px auto;
+  max-width: 700px;
+}
+
+.container h1, .container h2 {
+  font-family: Courier;
+  text-align: center;
+  color: #FEF6E5;
+  margin-top: 25px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #FFFBF3;
+}
 
 figure {
-	position: relative;
-	margin: 5% 0;
+  position: relative;
+  margin: 5% 0;
+  text-align: center;
 }
 
 figcaption {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate( -50%, -50% );
-	font-size: 20px;
-	letter-spacing: 5px;
-	color: #433030;
-	width: 100%;
-	padding: 1rem;
-	background: rgba(228, 222, 222, 0.8);
-	opacity: 0;
-	transition: all .5s ease-in-out;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  letter-spacing: 5px;
+  color: #433030;
+  width: 100%;
+  padding: 1rem;
+  background: rgba(228, 222, 222, 0.8);
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
 }
 
 figure:hover figcaption {
-    opacity: 30; 
+  opacity: 1;
 }
 
 .row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 0 4px;
-  }
-  
-  .column {
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
-  }
-  
-  .column img {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 100%;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 1 0 45%; 
+  max-width: 45%; 
+  box-sizing: border-box;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
