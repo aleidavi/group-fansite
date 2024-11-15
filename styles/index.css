@@ -4,11 +4,11 @@ html {
 }
 section{
     padding: 1em;
-    background-color: #9d7960;
+    background-color: #9f6f4c;
 }
 
 header{
-    background-color: #ebbd9d;
+    background-color: #d7b59d;
     padding-top: 2em;
 
 }
@@ -17,10 +17,9 @@ li {
     
     display: inline-block;
     padding: 1em;
-    font-family: 'Courier New', Courier, monospace;
-    background-color: #9d7960;
-
-    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #9f6f4c;
+     
 }
 
  
@@ -46,7 +45,7 @@ h2 {
 } */
 main {
     color: whitesmoke;
-    font-family: Helvetica;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border: none;
 }
 
@@ -64,7 +63,7 @@ footer {
     border: none;
     padding: 3em;
     font-family: 'Courier New', Courier, monospace;
-    background-color: #9d7960;;
+    background-color: #9f6f4c;;
 }
 
 /* h1 {
