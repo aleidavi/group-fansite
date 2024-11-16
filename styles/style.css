@@ -1,14 +1,49 @@
 html {
+    background-color: #9D6D49;
+    font-family: 'Courier New';
+    
+    color: #FEF5DC;
     text-align: center;
 }
+body {
+    margin: 0px;
+}
 
-/* 
+header {
+    background-color: #D8B494;
+    font-weight: bold;
+    width: 100%;
+}
 
-Notes:
+nav {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    color: #D8B494;
+}
 
-containers for tags:
- header
- nav
- footer 
+nav a {
+    margin: 0 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #9F7F63;
+    background-color: #FEF6E5;
+    width: 100px;
+}
 
- */
+nav a:hover{
+    background-color: #9D6D49;
+    color: #FEF6E5;
+}
+
+
+
+
+footer {
+    position: static;
+    margin: 2% 2% 0% 2%;
+    font-weight: bold;
+    border: none;
+    
+
+}
