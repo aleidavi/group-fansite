@@ -1,7 +1,7 @@
 html {
-    background-color: #9E6B49;
+    background-color: #FCF4E5;;
     font-family: "Courier";
-    color: #FCF4E5;
+    color: #9E6B49;
 }
 
 body {
@@ -9,7 +9,7 @@ body {
 }
 
 nav {
-	background-color: #D8B494;
+	background-color: #9E6B49;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -20,19 +20,19 @@ nav a {
     margin: 0 5px;
     padding: 10px 20px;
     text-decoration: none;
-    color: #9F7F63;
-    background-color: #FCF4E5;
+    color: #FCF4E5;
+    background-color: #d8b394;
     width: 100px;
 }
 
 nav a:hover{
-    background-color: #9E6B49;
-    color: #FEF6E5;
+    background-color: #FEF6E5;
+    color: #9E6B49;
 }
 
 nav a.active {
-    background-color: #9E6B49;
-    color: #FEF6E5;
+    background-color: #FEF6E5;
+    color: #9E6B49;
     font-weight: 600;
 }
 
@@ -60,7 +60,7 @@ h2 {
 
 .gallery img {
   width: 100%;
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
 }
 
 figure {
