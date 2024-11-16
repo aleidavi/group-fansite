@@ -1,3 +1,51 @@
+html {
+    background-color: #9E6B49;
+    font-family: "Courier";
+    color: #FCF4E5;
+}
+
+body {
+    margin: 0px;
+}
+
+nav {
+	background-color: #D8B494;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+nav a {
+    margin: 0 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #9F7F63;
+    background-color: #FCF4E5;
+    width: 100px;
+}
+
+nav a:hover{
+    background-color: #9E6B49;
+    color: #FEF6E5;
+}
+
+nav a.active {
+    background-color: #9E6B49;
+    color: #FEF6E5;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: -10px;
+}
+
+h2 {
+    font-weight: 300;
+}
+
 .container {
   display: flex;
   padding: 2rem 5%;
@@ -22,6 +70,7 @@ figure {
 
 figcaption {
 	position: absolute;
+	font-family: "Avenir";
 	top: 50%;
 	left: 50%;
 	transform: translate( -50%, -50% );
