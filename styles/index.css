@@ -9,14 +9,12 @@ nav a.active {
 h1 { 
     font-family: 'Courier New', Courier, monospace;
     font-size: 3em;
-    color: whitesmoke;
 }
 
 h2 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 2em;
-    color: whitesmoke;
-    padding: 2%;
+    padding: 1%%;
 }
 
 /* EDITS  */
@@ -26,7 +24,7 @@ h2 {
     grid-template-rows: 4;
     font-family: "Avenir";
     /*Transparent gray background*/
-    background-color: rgba(60, 60, 60, 0.18);
+    background-color: rgba(60, 60, 60, 0.15);
     margin: 4% 6% 4% 6%;
 }
   
@@ -51,11 +49,7 @@ h3, h4, h5 {
 }
 /* EDITS */
 
-main {
-    color: whitesmoke;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border: none;
-}
+
 
 
 
