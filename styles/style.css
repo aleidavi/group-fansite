@@ -1,12 +1,21 @@
 html {
     background-color: #9D6D49;
     font-family: 'Courier New';
-    
+
     color: #FEF5DC;
     text-align: center;
 }
+
 body {
     margin: 0px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #F5F5DC;
+    margin-bottom: 0;
+    letter-spacing: 1px;
 }
 
 header {
@@ -31,7 +40,7 @@ nav a {
     width: 100px;
 }
 
-nav a:hover{
+nav a:hover {
     background-color: #9D6D49;
     color: #FEF6E5;
 }
@@ -44,6 +53,6 @@ footer {
     margin: 2% 2% 0% 2%;
     font-weight: bold;
     border: none;
-    
+
 
 }
