@@ -3,6 +3,7 @@ html {
     font-family: 'Courier New';
     color: #FEF5DC;
     text-align: center;
+    cursor: url('images/coffee_mu.avif'), auto;
 }
 
 body {
@@ -12,7 +13,7 @@ body {
 h1 {
     font-size: 50px;
     font-weight: 700;
-    color: #F5F5DC;
+    /* color: #F5F5DC; */
     margin-bottom: 0;
     letter-spacing: 1px;
 }
