@@ -5,6 +5,7 @@ html {
     color: #FEF5DC;
     text-align: center;
 }
+
 body {
     margin: 0px;
 }
@@ -37,13 +38,9 @@ nav a:hover{
 }
 
 
-
-
 footer {
     position: static;
-    margin: 2% 2% 0% 2%;
+    margin: 2% 2% 2% 2%;
     font-weight: bold;
     border: none;
-    
-
 }
