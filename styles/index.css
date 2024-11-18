@@ -21,10 +21,13 @@ h2 {
     grid-template-columns: 4;
     grid-template-rows: 4;
     font-family: "Avenir";
-    text-align: justify;
     /*Transparent gray background*/
     background-color: rgba(60, 60, 60, 0.15);
     margin: 4% 6% 4% 6%;
+}
+
+p {
+    text-align: justify;
 }
   
 #description1 {
@@ -53,10 +56,12 @@ img {
     margin-top: 10%;
 }
 
-#size-ctrl{
+#size-ctrl {
     max-width: 60%;
     margin-top: 10%;
 }
+
+
 
 
 
