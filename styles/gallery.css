@@ -36,7 +36,7 @@ nav a.active {
     font-weight: 600;
 }
 
-logo img {
+.logo img {
     width: 15%;
     margin-bottom: -40px;
 }
