@@ -36,6 +36,11 @@ nav a.active {
     font-weight: 600;
 }
 
+logo img {
+    width: 15%;
+    margin-bottom: -40px;
+}
+
 h1 {
     font-size: 50px;
     font-weight: 600;
