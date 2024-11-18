@@ -5,29 +5,6 @@ html {
     text-align: center;
 }
 
-body {
-    margin: 0px;
-}
-
-logo img {
-    width: 15%;
-    margin-bottom: 0%;
-    margin-top: 0%;
-}
-
-h1 {
-    font-size: 50px;
-    font-weight: 700;
-    margin-bottom: 0;
-    letter-spacing: 1px;
-}
-
-header {
-    background-color: #D8B494;
-    font-weight: bold;
-    width: 100%;
-}
-
 nav {
     display: flex;
     justify-content: center;
@@ -54,6 +31,31 @@ nav a.active {
     color: #FEF6E5;
     font-weight: 600;
 }
+
+body {
+    margin: 0px;
+}
+
+#logo {
+    width: 15%;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+}
+
+header {
+    background-color: #D8B494;
+    font-weight: bold;
+    width: 100%;
+}
+
+
 
 footer {
     position: static;
