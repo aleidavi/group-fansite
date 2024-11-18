@@ -3,17 +3,21 @@ html {
     font-family: 'Courier New';
     color: #FEF5DC;
     text-align: center;
-    cursor: url('images/coffee_mu.avif'), auto;
 }
 
 body {
     margin: 0px;
 }
 
+logo img {
+    width: 15%;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
 h1 {
     font-size: 50px;
     font-weight: 700;
-    /* color: #F5F5DC; */
     margin-bottom: 0;
     letter-spacing: 1px;
 }
@@ -46,7 +50,7 @@ nav a:hover {
 }
 
 nav a.active {
-    background-color: #9E6B49;
+    background-color: #9D6D49;
     color: #FEF6E5;
     font-weight: 600;
 }
